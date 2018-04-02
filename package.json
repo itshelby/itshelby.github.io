@@ -1,0 +1,29 @@
+{
+  "gulp-font": "^1.0.4",
+  "name": "porshe911",
+  "version": "0.0.1",
+  "description": "Quick build for the layout",
+  "main": "index.js",
+  "scripts": {
+    "go": "gulp"
+  },
+  "author": "itshelby",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "standard": "^11.0.0"
+  }
+}

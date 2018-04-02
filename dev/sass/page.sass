@@ -1,0 +1,35 @@
+@import 'css/normalize'
+
+*
+  box-sizing: border-box
+*:before, *:after
+  box-sizing: border-box
+
+webkit-scrollbar
+  width: 8px
+  height: 8px
+
+body::-webkit-scrollbar
+  width: 8px
+
+body::-webkit-scrollbar-track
+  -webkit-box-shadow: none
+  background: #eaeaea
+
+body::-webkit-scrollbar-thumb
+  background-color: #f5cd79
+
+@font-face
+  font-family: 'open-sans'
+  src:  url('../fonts/OpenSans-Light.woff2') format('woff2'), url('../fonts/OpenSans-Light.woff') format('woff')
+
+$accent: 'open-sans', sans-serif
+
+body
+  font-size: 16px
+  min-width: 320px
+  line-height: 1.70
+  overflow: hidden
+  font-family: $accent
+
+@import 'master'
